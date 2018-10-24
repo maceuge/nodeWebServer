@@ -1,23 +1,24 @@
 {
-  "name": "nodewebserver",
-  "version": "1.0.0",
-  "description": "Web Server",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maceuge/nodeWebServer.git"
-  },
-  "author": "Eugenio Vorontosv",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/maceuge/nodeWebServer/issues"
-  },
-  "homepage": "https://github.com/maceuge/nodeWebServer#readme",
-  "dependencies": {
-    "express": "^4.16.4",
-    "nodemon": "^1.18.4"
-  }
+    "name": "nodewebserver",
+    "version": "1.0.0",
+    "description": "Web Server",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maceuge/nodeWebServer.git"
+    },
+    "author": "Eugenio Vorontosv",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maceuge/nodeWebServer/issues"
+    },
+    "homepage": "https://github.com/maceuge/nodeWebServer#readme",
+    "dependencies": {
+        "express": "^4.16.4",
+        "hbs": "^4.0.1",
+        "nodemon": "^1.18.4"
+    }
 }
